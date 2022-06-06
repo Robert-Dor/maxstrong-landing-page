@@ -213,6 +213,7 @@ ul li {
   font-size: 16px;
   line-height: 24px;
   padding-bottom: 35px;
+  cursor: pointer;
 }
 
 .media-ctr {
@@ -252,6 +253,7 @@ h6 {
   height: 32px;
   background: RGBA(128, 173, 245, 0.2);
   border-radius: 100%;
+  cursor: pointer;
 }
 
 .desktop-image {
@@ -426,7 +428,17 @@ h6 {
   }
 
   .social-icons {
-    display: none;
+    display: inline-block;
+    margin: 30px 8px;
+    width: 32px;
+    height: 32px;
+    background: RGBA(128, 173, 245, 0.2);
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .social-icons img {
+    margin-left: 6px;
   }
 
   .media-ctr {
